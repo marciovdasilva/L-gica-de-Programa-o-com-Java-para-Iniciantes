@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;meu-aquivo-1.txt&apos; to &apos;CursoLogicacapitulo12/src/Exercicio01OrdeneAListaDeAlunosDoArquivo&apos;&#x0D;&#x0A;- Original project: &apos;CursoLogicacapitulo10&apos;&#x0D;&#x0A;- Destination element: &apos;CursoLogicacapitulo12/src/Exercicio01OrdeneAListaDeAlunosDoArquivo&apos;&#x0D;&#x0A;- Original element: &apos;meu-aquivo-1.txt&apos;" description="Copy file" destination="=CursoLogicacapitulo12/src&lt;Exercicio01OrdeneAListaDeAlunosDoArquivo" element1="src/LeituraArquivos/meu-aquivo-1.txt" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1661203759982" units="0" version="1.0"/>
+</session>

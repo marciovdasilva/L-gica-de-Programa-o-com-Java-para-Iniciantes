@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Vetores2Dimensoes.java&apos; to &apos;ExercicioDeAula.Vetores2Dimensoes.java&apos;&#x0D;&#x0A;- Original project: &apos;CursoLogicacapitulo07&apos;&#x0D;&#x0A;- Destination element: &apos;ExercicioDeAula.Vetores2Dimensoes.java&apos;&#x0D;&#x0A;- Original element: &apos;ExercicioDeAula.Vetores2Dimensoes.java&apos;" description="Copy compilation unit" destination="/src&lt;ExercicioDeAula{Vetores2Dimensoes.java" element1="/src&lt;ExercicioDeAula{Vetores2Dimensoes.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1646611231172" units="1" version="1.0"/>
+</session>

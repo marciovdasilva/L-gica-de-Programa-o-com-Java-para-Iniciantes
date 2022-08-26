@@ -1,0 +1,38 @@
+package UsandoBibliotecaDeEmail;
+
+import org.apache.commons.mail.DefaultAuthenticator;
+import org.apache.commons.mail.Email;
+import org.apache.commons.mail.EmailException;
+import org.apache.commons.mail.SimpleEmail;
+
+public class UsandoBiblioteDeEmail {
+
+	public static void main(String[] args) throws EmailException {
+
+//		Email email = new SimpleEmail();
+//		email.setHostName("smtp.gmail.com");
+//		email.setSmtpPort(465);
+//		email.setAuthenticator(new DefaultAuthenticator("marciov.dasilva", "M@rc!062"));
+//		email.setSSLOnConnect(true);
+//		email.setFrom("marciov.dasilva@gmail.com");
+//		email.setSubject();
+//		email.setMsg();
+//		email.addTo();
+//		email.send();
+		Email email = new SimpleEmail();
+		email.setHostName("smtp.office365.com");
+		email.setSmtpPort(587);
+		email.setAuthenticator(new DefaultAuthenticator("marciov.dasilva", "M@rc!062"));
+		email.setSSLOnConnect(true);
+		email.setFrom("marciov.dasilva@hotmail.com");
+		email.setSubject("teste");
+		email.setMsg("teste");
+		email.addTo("marciov.dasilva@hotmail.com");
+		email.send();
+		
+//		Carteiro.enviar("marciov.dasilva@hotmail.com","Aula sobre o uso de bibliotecas de terceiros", "Se estiver vendo este email é porque o nosso envio funcionou!!!");
+		
+		System.out.println("Fim......");
+	}
+
+}

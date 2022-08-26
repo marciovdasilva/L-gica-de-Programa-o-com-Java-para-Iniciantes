@@ -1,0 +1,11 @@
+package Exercicio01CrieUmaListaDeTarefasEEnvieAListaPorEmail;
+
+public class AlgoritmoAvancado {
+
+	public static void main(String[] args) {
+
+		
+		
+	}
+
+}

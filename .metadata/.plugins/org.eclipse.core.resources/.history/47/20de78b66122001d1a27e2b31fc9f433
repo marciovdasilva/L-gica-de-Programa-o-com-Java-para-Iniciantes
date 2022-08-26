@@ -1,0 +1,29 @@
+package Exercicio01OrdeneAListaDeAlunosDoArquivo;
+
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.List;
+import java.util.Scanner;
+
+public class Exercicio01OrdeneAListaDeAlunosDoArquivo {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		Path arquivo = Paths.get("C:\\Users\\Márcio\\eclipse-workspace\\CursoLogicacapitulo10\\src\\Exercicio01CrieUmaListaDeTarefasESalveAListaEmUmArquivo\\meu-aquivo-1.txt");
+		
+		List<String> linhas = Files.readAllLines(arquivo);
+		
+		System.out.println("Lista de atividade: \n");
+		
+		for (int i = 0; i < linhas.size(); i++) {
+			String atividade = linhas.get(i);
+			
+			System.out.println("Atividade " + i +": "+ atividade);
+		} 
+		
+		scanner.close();
+	}
+
+}

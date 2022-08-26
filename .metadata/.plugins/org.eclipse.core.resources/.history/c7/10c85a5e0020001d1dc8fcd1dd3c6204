@@ -1,0 +1,33 @@
+import java.util.Iterator;
+
+public class AlgoritmoAvancado {
+
+	public static void main(String[] args) {
+		ListaAlunos lista = new ListaAlunos();
+		
+		Aluno aluno = new Aluno();
+		aluno.nome = "Marcio";
+		lista.adicionar(aluno);
+		
+		aluno = new Aluno();
+		aluno.nome = "Gabriel";
+		lista.adicionar(aluno);
+		
+		aluno = new Aluno();
+		aluno.nome = "Luiz";
+		lista.adicionar(aluno);
+
+		aluno = new Aluno();
+		aluno.nome = "Joaquim";
+		lista.adicionar(aluno);
+		
+		for (int i = 0; i < lista.tamanho(); i++) {
+			Aluno a = lista.obter(i);
+			
+			System.out.println("Aluno: " + a.nome);
+		}
+		
+		
+	}
+
+}

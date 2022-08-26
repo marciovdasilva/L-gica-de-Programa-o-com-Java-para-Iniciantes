@@ -1,0 +1,25 @@
+package UsandoBibliotecaDeEmail;
+
+import org.apache.commons.mail.EmailException;
+
+public class UsandoBiblioteDeEmail {
+
+	public static void main(String[] args) throws EmailException {
+
+//		Email email = new SimpleEmail();
+//		email.setHostName("smtp.gmail.com");
+//		email.setSmtpPort(465);
+//		email.setAuthenticator(new DefaultAuthenticator("marciov.dasilva", "M@rc!062"));
+//		email.setSSLOnConnect(true);
+//		email.setFrom("marciov.dasilva@gmail.com");
+//		email.setSubject();
+//		email.setMsg();
+//		email.addTo();
+//		email.send();
+		
+		Carteiro.enviar("marciov.dasilva@hotmail.com.br","Aula sobre o uso de bibliotecas de terceiros", "Se estiver vendo este email é porque o nosso envio funcionou!!!");
+		
+		System.out.println("Fim......");
+	}
+
+}
