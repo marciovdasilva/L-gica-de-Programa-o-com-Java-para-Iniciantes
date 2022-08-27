@@ -45,4 +45,6 @@
     <fullyQualifiedTypeName name="ListaAlunos"/>
     <fullyQualifiedTypeName name="java.lang.Boolean"/>
     <fullyQualifiedTypeName name="Exercicio01OrdeneAListaDeAlunosDoArquivo.ListaAlunos"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
 </qualifiedTypeNameHistroy>
