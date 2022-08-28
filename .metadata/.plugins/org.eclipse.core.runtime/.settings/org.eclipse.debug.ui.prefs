@@ -1,3 +1,6 @@
+Console.highWaterMark=1008000
+Console.limitConsoleOutput=false
+Console.lowWaterMark=1000000
 DEBUG.consoleOpenOnErr=false
 DEBUG.consoleOpenOnOut=false
 eclipse.preferences.version=1

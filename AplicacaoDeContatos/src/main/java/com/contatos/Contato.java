@@ -16,19 +16,19 @@ public class Contato {
 		this.telefone = telefone;
 	}
 	
-	String getId() {
+	public String getId() {
 		return id;
 	}
 	void setId(String id) {
 		this.id = id;
 	}
-	String getNome() {
+	public String getNome() {
 		return nome;
 	}
 	void setNome(String nome) {
 		this.nome = nome;
 	}
-	String getTelefone() {
+	public String getTelefone() {
 		return telefone;
 	}
 	void setTelefone(String telefone) {
