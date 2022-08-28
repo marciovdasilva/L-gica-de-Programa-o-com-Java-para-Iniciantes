@@ -1,6 +1,9 @@
 package com.contatos;
 
 public class Contato {
+	//Teste padrão JavaBean
+	//public String id;
+	
 	private String id;
 	private String nome;
 	private String telefone;
