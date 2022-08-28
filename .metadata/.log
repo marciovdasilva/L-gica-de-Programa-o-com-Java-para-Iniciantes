@@ -9050,3 +9050,15 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-28 11:53:33.808
 !MESSAGE Boot LS startup time from start to initialized: 7627ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-28 14:18:05.584
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-28 14:18:05.585
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@59febb2[org.springframework.tooling.boot.ls:1.38.0.202208110704(id=567)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-28 14:18:05.585
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-28 14:18:09.644
+!MESSAGE Boot LS startup time from start to initialized: 4058ms
