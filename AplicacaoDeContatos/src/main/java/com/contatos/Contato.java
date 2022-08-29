@@ -9,9 +9,7 @@ public class Contato {
 	private String telefone;
 	
 	//Construtor
-	public Contato() {
-		
-	}
+public Contato() {}
 	
 	public Contato(String id, String nome, String telefone) {
 		this.id = id;
@@ -23,24 +21,27 @@ public class Contato {
 		return id == null;
 	}
 	
-	public String getId() {
-		return id;
-	}
-	void setId(String id) {
-		this.id = id;
-	}
 	public String getNome() {
 		return nome;
 	}
-	void setNome(String nome) {
+	
+	public void setNome(String nome) {
 		this.nome = nome;
 	}
+
+	public String getId() {
+		return id;
+	}
+
+	public void setId(String id) {
+		this.id = id;
+	}
+
 	public String getTelefone() {
 		return telefone;
 	}
-	void setTelefone(String telefone) {
+
+	public void setTelefone(String telefone) {
 		this.telefone = telefone;
 	}
-	
-	
 }

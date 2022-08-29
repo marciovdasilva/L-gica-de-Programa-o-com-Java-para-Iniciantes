@@ -9148,3 +9148,42 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-29 19:19:36.768
 !MESSAGE Boot LS startup time from start to initialized: 5827ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-29 19:51:16.377
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-29 19:51:16.378
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@3313d265[org.springframework.tooling.boot.ls:1.38.0.202208110704(id=567)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-29 19:51:16.379
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-29 19:51:20.100
+!MESSAGE Boot LS startup time from start to initialized: 3719ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-29 19:52:08.809
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-29 19:52:08.810
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@3313d265[org.springframework.tooling.boot.ls:1.38.0.202208110704(id=567)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-29 19:52:08.811
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-29 19:52:12.638
+!MESSAGE Boot LS startup time from start to initialized: 3826ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-29 19:58:01.721
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-29 19:58:01.722
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@3313d265[org.springframework.tooling.boot.ls:1.38.0.202208110704(id=567)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-29 19:58:01.722
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-29 19:58:05.242
+!MESSAGE Boot LS startup time from start to initialized: 3518ms
+
+!ENTRY org.eclipse.ui 2 2 2022-08-29 20:01:39.761
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)

@@ -6,8 +6,9 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="String getNome"/>
+		<item key="selection" value="post"/>
 		<list key="findhistory">
+			<item value="post"/>
 			<item value="String getNome"/>
 			<item value="tmp"/>
 			<item value="vemDepoisDe"/>
@@ -22,7 +23,6 @@
 			<item value="&#x09;&#x09;System.out.println(&quot;Escolha o operador do seu calculo:&quot;);"/>
 			<item value="opera"/>
 			<item value="subtracao"/>
-			<item value="posicaoCursoEscolhido"/>
 		</list>
 		<list key="replacehistory">
 			<item value=""/>

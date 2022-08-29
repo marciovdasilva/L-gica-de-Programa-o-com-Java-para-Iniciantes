@@ -14,11 +14,11 @@ public class ContatosControle {
 	private static final ArrayList<Contato> LISTA_CONTATOS = new ArrayList<>();
 	
 	static {
-		LISTA_CONTATOS.add(new Contato("1", "Marcio", "+55 45 91111 1111"));
-		LISTA_CONTATOS.add(new Contato("2", "Lucelia", "+55 45 92222 2222"));
-		LISTA_CONTATOS.add(new Contato("3", "Gabriel", "+55 45 93333 3333"));
-		LISTA_CONTATOS.add(new Contato("4", "Luiz", "+55 45 94444 4444"));
-		LISTA_CONTATOS.add(new Contato("5", "Joaquim", "+55 45 95555 5555"));
+		LISTA_CONTATOS.add(new Contato("1", "Maria", "+55 34 00000 0000"));
+		LISTA_CONTATOS.add(new Contato("2", "João", "+55 34 00000 0000"));
+		LISTA_CONTATOS.add(new Contato("3", "Normandes", "+55 34 00000 0000"));
+		LISTA_CONTATOS.add(new Contato("4", "Thiago", "+55 34 00000 0000"));
+		LISTA_CONTATOS.add(new Contato("5", "Alexandre", "+55 34 00000 0000"));
 	}
 	
 	@GetMapping("/")
@@ -34,6 +34,7 @@ public class ContatosControle {
 		
 		return modelAndView;
 	}
+	
 	@GetMapping("/contatos/novo")
 	public ModelAndView novo() {
 		ModelAndView modelAndView = new ModelAndView("formulario");
@@ -41,8 +42,8 @@ public class ContatosControle {
 		modelAndView.addObject("contato", new Contato());
 		
 		return modelAndView;
-		
-	}
+	}	
+	
 	@PostMapping("/contatos")
 	public String cadastrar(Contato contato) {
 		String id = UUID.randomUUID().toString();
@@ -53,8 +54,4 @@ public class ContatosControle {
 		
 		return "redirect:/contatos";
 	}
-	
-	
-	
-	
 }
