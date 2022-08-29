@@ -6,8 +6,9 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="tmp"/>
+		<item key="selection" value="String getNome"/>
 		<list key="findhistory">
+			<item value="String getNome"/>
 			<item value="tmp"/>
 			<item value="vemDepoisDe"/>
 			<item value="format"/>
@@ -22,7 +23,6 @@
 			<item value="opera"/>
 			<item value="subtracao"/>
 			<item value="posicaoCursoEscolhido"/>
-			<item value="Informe"/>
 		</list>
 		<list key="replacehistory">
 			<item value=""/>

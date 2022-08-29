@@ -28,7 +28,6 @@
     <fullyQualifiedTypeName name="classeInstancia.Produto"/>
     <fullyQualifiedTypeName name="classeInstancia.Impressao"/>
     <fullyQualifiedTypeName name="java.nio.file.Paths"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="Exercicio01CrieUmaListaDeTarefasESalveAListaEmUmArquivo.Impressao"/>
     <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="java.nio.file.Files"/>
@@ -43,8 +42,11 @@
     <fullyQualifiedTypeName name="Aluno"/>
     <fullyQualifiedTypeName name="javax.lang.model.element.QualifiedNameable"/>
     <fullyQualifiedTypeName name="ListaAlunos"/>
-    <fullyQualifiedTypeName name="java.lang.Boolean"/>
     <fullyQualifiedTypeName name="Exercicio01OrdeneAListaDeAlunosDoArquivo.ListaAlunos"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="org.springframework.web.servlet.ModelAndView"/>
+    <fullyQualifiedTypeName name="java.lang.Boolean"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="com.contatos.Contato"/>
 </qualifiedTypeNameHistroy>

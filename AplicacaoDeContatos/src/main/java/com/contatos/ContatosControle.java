@@ -1,9 +1,11 @@
 package com.contatos;
 
 import java.util.ArrayList;
+import java.util.UUID;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
@@ -41,4 +43,18 @@ public class ContatosControle {
 		return modelAndView;
 		
 	}
+	@PostMapping("/contatos")
+	public String cadastrar(Contato contato) {
+		String id = UUID.randomUUID().toString();
+		
+		contato.setId(id);
+		
+		LISTA_CONTATOS.add(contato);
+		
+		return "redirect:/contatos";
+	}
+	
+	
+	
+	
 }
