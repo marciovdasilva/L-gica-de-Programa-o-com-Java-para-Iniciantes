@@ -1,10 +1,12 @@
 package com.contatos;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.UUID;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -14,11 +16,11 @@ public class ContatosControle {
 	private static final ArrayList<Contato> LISTA_CONTATOS = new ArrayList<>();
 	
 	static {
-		LISTA_CONTATOS.add(new Contato("1", "Maria", "+55 34 00000 0000"));
-		LISTA_CONTATOS.add(new Contato("2", "João", "+55 34 00000 0000"));
-		LISTA_CONTATOS.add(new Contato("3", "Normandes", "+55 34 00000 0000"));
-		LISTA_CONTATOS.add(new Contato("4", "Thiago", "+55 34 00000 0000"));
-		LISTA_CONTATOS.add(new Contato("5", "Alexandre", "+55 34 00000 0000"));
+		LISTA_CONTATOS.add(new Contato("1", "Marcio", "+55 34 00000 0000"));
+		LISTA_CONTATOS.add(new Contato("2", "Luiz", "+55 34 00000 0000"));
+		LISTA_CONTATOS.add(new Contato("3", "Lucelia", "+55 34 00000 0000"));
+		LISTA_CONTATOS.add(new Contato("4", "Joaquim", "+55 34 00000 0000"));
+		LISTA_CONTATOS.add(new Contato("5", "Gabriel", "+55 34 00000 0000"));
 	}
 	
 	@GetMapping("/")
@@ -54,4 +56,28 @@ public class ContatosControle {
 		
 		return "redirect:/contatos";
 	}
+	
+	@GetMapping("/contatos/{id}/editar")
+	public ModelAndView editar(@PathVariable String id) {
+		ModelAndView modelAndView = new ModelAndView("formulario");
+		
+		Contato contato = procurarContato(id);
+		
+		modelAndView.addObject("contato", contato);
+		
+		return modelAndView;
+	}
+	
+	public Contato procurarContato(String id) {
+		for (int i = 0 ; i < LISTA_CONTATOS.size(); i++) {
+			Contato contato = LISTA_CONTATOS.get(i);
+			
+			if (contato.getId().equals(id)) {
+				return contato;
+			}
+		}
+		return null;
+	}
+	
+	
 }
