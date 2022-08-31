@@ -1,7 +1,6 @@
 package com.contatos;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.UUID;
 
 import org.springframework.stereotype.Controller;
